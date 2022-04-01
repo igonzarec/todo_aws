@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "simplefluttertodoapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-03-01T04:27:08.435Z"
+}

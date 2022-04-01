@@ -1,0 +1,27 @@
+name: todo_aws
+description: A simple todo app with aws
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  amplify_flutter: ^0.4.0 #aws
+  amplify_datastore: ^0.4.0 #aws
+  amplify_api: ^0.4.1 #after having aws account
+  amplify_auth_cognito: ^0.4.1 #to be able to authenticate
+  flutter_bloc: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
